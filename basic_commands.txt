@@ -1,0 +1,4 @@
+# Afficher toute le DB
+
+from(bucket:"mybucket")
+  |> range(start: 0, stop: now())
