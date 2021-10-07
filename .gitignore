@@ -3,3 +3,6 @@
 
 # Compiled python
 *.pyc
+
+playground.ipynb
+.ipynb_checkpoints/*
