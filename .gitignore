@@ -1,0 +1,5 @@
+# Powershell scripts
+*.ps1
+
+# Compiled python
+*.pyc
