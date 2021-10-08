@@ -12,7 +12,9 @@
 ### Visualiser toutes les données
 - Aller dans Explore > Query Builder
 - Entrer :
-<code>from(bucket: "mybucket")
-&nbsp;&nbsp;&nbsp;&nbsp;|> range(start: 0, stop: now())</code>
+```
+from(bucket: "mybucket")`<br>
+  |> range(start: 0, stop: now())
+```
 - Submit
 - (Toggle le "View Raw Data" si besoin)
