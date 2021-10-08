@@ -13,7 +13,7 @@
 - Aller dans Explore > Query Builder
 - Entrer :
 ```
-from(bucket: "mybucket")`<br>
+from(bucket: "mybucket")
   |> range(start: 0, stop: now())
 ```
 - Submit
