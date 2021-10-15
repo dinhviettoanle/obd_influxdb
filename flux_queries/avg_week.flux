@@ -1,0 +1,5 @@
+from(bucket:"mybucket")
+  |> range(start: 0, stop: now())
+  |> drop(columns: ["_start", "_stop"])
+  |> timedMovingAverage(every: 1w, period: 2w)
+  |> yield(name: "average-week")

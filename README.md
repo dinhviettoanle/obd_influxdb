@@ -18,3 +18,8 @@ from(bucket: "mybucket")
 ```
 - Submit
 - (Toggle le "View Raw Data" si besoin)
+
+### Lancer des requêtes par le CLI 
+_A priori. Pas testé sous Linux_
+- Modifier `send_query.sh` en rajoutant son token
+- Lancer `./send_query.sh ./queries/<query_file>.flux`

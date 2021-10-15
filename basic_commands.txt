@@ -2,3 +2,7 @@
 
 from(bucket:"mybucket")
   |> range(start: 0, stop: now())
+
+
+# Différence entre InfluxQL et Flux :
+https://www.sqlpac.com/fr/documents/influxdb-passer-du-langage-influxql-au-langage-flux.html

@@ -1,0 +1,1 @@
+influx query --file $1 --token "DkqpJF-KB6oCD25k7E8woeHxK0deggIpNyDxFeoszhLogSRrYLKdYMdcZjVGXyutwFSFBfLD5-Jkbah6wt9ujA=="
