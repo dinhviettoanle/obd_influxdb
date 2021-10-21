@@ -1,0 +1,5 @@
+from(bucket: "meteo_toulouse")
+  |> range(start: -30d, stop: now())
+  |> filter(fn: (r) => r["_measurement"] == "meteo")
+  |> filter(fn: (r) => r["station"] == "12-montaudran")
+  |> filter(fn: (r) => r["_field"] == "humidite")
