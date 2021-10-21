@@ -1,0 +1,5 @@
+from(bucket: "meteo_history")
+  |> range(start: time(v: "2006-01-01"), stop: now())
+  |> filter(fn: (r) => r._field == "TemperatureMoyenne")
+  |> timedMovingAverage(every: 2w, period: 12w)
+  |> yield(name: "mean")
