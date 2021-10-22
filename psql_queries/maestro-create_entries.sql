@@ -5,4 +5,4 @@ CREATE TABLE maestro (
     piece varchar(50) NOT NULL
 );
 
-\COPY maestro FROM '.\audio-maestro_piece0.csv'  DELIMITER ',' CSV HEADER;
+\COPY maestro FROM '.\data\audio-maestro_piece0.csv'  DELIMITER ',' CSV HEADER;

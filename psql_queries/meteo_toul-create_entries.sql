@@ -14,11 +14,11 @@ CREATE TABLE meteo (
     station varchar(50) NOT NULL
 );
 
-\COPY meteo FROM '.\00-toulouse-valade.csv'  DELIMITER ',' CSV HEADER;
-\COPY meteo FROM '.\01-toulouse-meteopole.csv'  DELIMITER ',' CSV HEADER;
-\COPY meteo FROM '.\04-toulouse-ile-empalot.csv'  DELIMITER ',' CSV HEADER;
-\COPY meteo FROM '.\12-toulouse-montaudran.csv'  DELIMITER ',' CSV HEADER;
-\COPY meteo FROM '.\15-l-union-ecole.csv'  DELIMITER ',' CSV HEADER;
-\COPY meteo FROM '.\36-toulouse-purpan.csv'  DELIMITER ',' CSV HEADER;
-\COPY meteo FROM '.\53-toulouse-ponsan.csv'  DELIMITER ',' CSV HEADER;
+\COPY meteo FROM '.\data\00-toulouse-valade.csv'  DELIMITER ',' CSV HEADER;
+\COPY meteo FROM '.\data\01-toulouse-meteopole.csv'  DELIMITER ',' CSV HEADER;
+\COPY meteo FROM '.\data\04-toulouse-ile-empalot.csv'  DELIMITER ',' CSV HEADER;
+\COPY meteo FROM '.\data\12-toulouse-montaudran.csv'  DELIMITER ',' CSV HEADER;
+\COPY meteo FROM '.\data\15-l-union-ecole.csv'  DELIMITER ',' CSV HEADER;
+\COPY meteo FROM '.\data\36-toulouse-purpan.csv'  DELIMITER ',' CSV HEADER;
+\COPY meteo FROM '.\data\53-toulouse-ponsan.csv'  DELIMITER ',' CSV HEADER;
 

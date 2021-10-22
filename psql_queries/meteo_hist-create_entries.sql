@@ -13,9 +13,9 @@ CREATE TABLE meteo_hist (
     Heure timestamptz
 );
 
-\COPY meteo_hist FROM '.\meteo_hist-grenoble.csv'  DELIMITER ',' CSV HEADER;
-\COPY meteo_hist FROM '.\meteo_hist-lille.csv'  DELIMITER ',' CSV HEADER;
-\COPY meteo_hist FROM '.\meteo_hist-marseille.csv'  DELIMITER ',' CSV HEADER;
-\COPY meteo_hist FROM '.\meteo_hist-paris.csv'  DELIMITER ',' CSV HEADER;
-\COPY meteo_hist FROM '.\meteo_hist-toulouse.csv'  DELIMITER ',' CSV HEADER;
+\COPY meteo_hist FROM '.\data\meteo_hist-grenoble.csv'  DELIMITER ',' CSV HEADER;
+\COPY meteo_hist FROM '.\data\meteo_hist-lille.csv'  DELIMITER ',' CSV HEADER;
+\COPY meteo_hist FROM '.\data\meteo_hist-marseille.csv'  DELIMITER ',' CSV HEADER;
+\COPY meteo_hist FROM '.\data\meteo_hist-paris.csv'  DELIMITER ',' CSV HEADER;
+\COPY meteo_hist FROM '.\data\meteo_hist-toulouse.csv'  DELIMITER ',' CSV HEADER;
 
